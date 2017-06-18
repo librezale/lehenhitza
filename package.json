@@ -1,0 +1,28 @@
+{
+  "name": "lehenhitza",
+  "version": "0.1.0",
+  "description": "Non intrusive lehen hitza banner clone",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint src/",
+    "build": "mkdir -p dist && uglifyjs src/lehenhitza.js --compress --mangle --output dist/lehenhitza.js",
+    "clean": "rm -rf dist/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/librezale/lehenhitza.git"
+  },
+  "keywords": [
+    "lehenhitza"
+  ],
+  "author": "Julen Landa Alustiza <julen@zokormazo.info>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/librezale/lehenhitza/issues"
+  },
+  "homepage": "https://github.com/librezale/lehenhitza#readme",
+  "devDependencies": {
+    "eslint": "^4.0.0",
+    "uglify-js": "^3.0.18"
+  }
+}
